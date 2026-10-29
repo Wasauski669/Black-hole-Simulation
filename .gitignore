@@ -1,0 +1,9 @@
+build/
+cmake-build-*/
+out/
+.vs/
+.vscode/
+.idea/
+*.png
+!docs/*.png
+imgui.ini
