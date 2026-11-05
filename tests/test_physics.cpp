@@ -7,9 +7,9 @@
 #include <string>
 #include <vector>
 
-using namespace bh
+using namespace bh;
 
-namespace 
+namespace {
 
 constexpr double kPi = 3.14159265358979323846;
 int failures = 0;

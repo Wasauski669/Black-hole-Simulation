@@ -36,7 +36,7 @@ const char* const kToolHints[] = {
     "Drag to throw a particle. Click for a circular orbit.",
 };
 
-Color photonColor(double impact) 
+Color photonColor(double impact) {
     // Warm colours: captured (b < 3*sqrt(3) M). Cool colours: escaping.
     const float t = static_cast<float>(impact / kCriticalImpact);
     if (t < 1.0f) return lerp({1.0f, 0.22f, 0.12f, 1.0f}, {1.0f, 0.72f, 0.28f, 1.0f}, t);
